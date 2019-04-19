@@ -17,6 +17,8 @@ def list_del():
 def list_update():
     alist = ['a', 7, 'hello', '8', 'fyfy', '你好']
     alist[0] = 5
+    print(alist)
+
 
 if __name__ == '__main__':
     alist = ['a',7,'hello','8','fyfy','你好']
