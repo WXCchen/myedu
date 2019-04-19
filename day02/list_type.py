@@ -24,4 +24,5 @@ if __name__ == '__main__':
     alist = ['a',7,'hello','8','fyfy','你好']
     # list_sel(alist)
     # list_del()
-    list_update()
+    # list_update()
+    print(len(alist))
