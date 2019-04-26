@@ -13,7 +13,7 @@ def chenfabiao():
             print('%s * %s = %s'%(j,i,j*i),end='   ')
         print('')
 
- #输入两个数求这两个数之间的偶数和
+#输入两个数求这两个数之间的偶数和
 def oushu_add(a,b):
     sum = 0
     if a<b:
@@ -31,5 +31,5 @@ def oushu_add(a,b):
 
 if __name__ == '__main__':
     # jishu_add()
-    # chenfabiao()
-    oushu_add(1,20)
+    chenfabiao()
+    # oushu_add(1,20)
